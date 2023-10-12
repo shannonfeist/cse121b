@@ -18,15 +18,15 @@ myProfile.placesLived.push (
     
     {
         place: "Meadville, PA", 
-        stay: "21 years"
+        length: "21 years"
     },
     {
         place: "Colonial Beach, VA",
-        stay: "3 years"
+        length: "3 years"
     },
     {
         place: "Beaver, PA",
-        stay: "3 years"
+        length: "3 years"
     }
 );
 
@@ -53,7 +53,7 @@ for (hobby of myProfile.hobbies) {
 
 for (let i = 0; i < myProfile.placesLived.length; i++) {
 
-        places.innerHTML += `<li><strong>${myProfile.placesLived[i].place}</strong> - ${myProfile.placesLived[i].stay}</li>`
+        places.innerHTML += `<li><strong>${myProfile.placesLived[i].place}</strong> - ${myProfile.placesLived[i].length}</li>`
 }
 
 /* Populate Profile Object with placesLive objects */
